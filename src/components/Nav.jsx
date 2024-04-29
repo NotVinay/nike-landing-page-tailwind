@@ -14,7 +14,7 @@ const Nav = () => {
                     height={29}
                 />
             </a>
-            <ul className='flex max-lg:hidden flex-1 justify-center items-center gap-16'>
+            <ul className='hidden lg:flex flex-1 justify-center items-center gap-16'>
                 {navLinks.map(link => (
                     <li key={link.label}>
                         <a
