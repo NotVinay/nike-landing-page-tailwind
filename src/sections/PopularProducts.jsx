@@ -13,7 +13,7 @@ const PopularProducts = () => {
           for Every Step You Take.
         </p>
       </div>
-      <div className="mt-16 grid lg:grid-cols-4 md:grid-col-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
+      <div className="mt-16 grid lg:grid-cols-4 md:grid-col-3 sm:grid-cols-2 grid-cols-1 gap-4 gap-14 sm:place-items-center">
         {products.map((product, i) => (
           <PopularProductCard
             key={`product-${i}`}
