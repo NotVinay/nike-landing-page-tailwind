@@ -2,7 +2,7 @@ import { star } from "../assets/icons";
 
 const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
   return (
-    <div className="flex flex-1 flex-col w-full rounded-2xl shadow-3xl justify-center items-center p-14 max-w-[400px] max-h-[400px] gap-4 bg-white">
+    <div className="flex flex-1 flex-col w-full rounded-2xl shadow-3xl justify-center items-center p-14 max-w-[400px] md:max-h-[400px] gap-4 bg-white">
       <img
         src={imgURL}
         alt={customerName}
